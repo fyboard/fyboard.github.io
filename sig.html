@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+        
+        <title>FY Board - NYUAD</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="index.php" class="nav__logo">FY Board</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="index.php" class="nav__link">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Home</span>
+                        </a>
+                        <a href="today.html" class="nav__link">
+                            <ion-icon name="checkmark-circle-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Today's Events</span>
+                        </a>
+                        <a href="reminders.html" class="nav__link">
+                          <ion-icon name="alarm" class="nav__icon"></ion-icon>
+                          <span class="nav__name">Reminders</span>
+                      </a>
+                      <a href="deadlines.html" class="nav__link">
+                        <ion-icon name="clipboard-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Deadlines</span>
+                    </a>
+                      <a href="sig.html" class="nav__link active">
+                        <ion-icon name="color-filter-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">SIG Events</span>
+                    </a>
+<!-- 
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Projects</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+                        chatbubbles-outline
+-->
+                        <a href="weblinks.html" class="nav__link">
+                            <ion-icon name="globe" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Website Links</span>
+                        </a>
+                        
+                        <!-- 
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Team</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div> -->
+                        <a href="whatsapp.html" class="nav__link">
+                            <ion-icon name="alert" class="nav__icon"></ion-icon>
+                            <span class="nav__name">WhatsApp Links</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="NYUAD Freshman Noticeboard.pdf" target="_blank" class="nav__link">
+                    <ion-icon name="download-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Download PDF</span>
+                </a>
+            </nav>
+        </div>
+
+        <h1>SIG (Student Interest Group) EVENTS</h1>
+        <hr>
+
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card_new">
+                        <div class="test-slider">
+                        <h3>Attitude Dance Classes</h3>
+                        </div>
+                        <div class="content">
+        <p>Starts <b>21st September</b><br><br>School - NYU Abu Dhabi</p><br><br>
+        <a href="https://students.nyuad.nyu.edu/" target="_blank">Register</a>
+                     </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="swiper-slide">
+                    <div class="card_new">
+                        <div class="test-slider">
+                        <h3>HackAD's Computer Science 101</h3>
+                        </div>
+                        <div class="content">
+        <p>Date - <b>23rd September, 2020</b><br><br>Time - <b>7 - 8 PM GST</b><br><br>School - NYU Abu Dhabi</p><br>
+        <a href="https://nyu.zoom.us/j/9031845044" target="_blank">Zoom Link</a>
+                     </div>
+                    </div>
+                </div>
+                
+                
+                <div class="swiper-slide">
+                    <div class="card_new">
+                        <div class="test-slider">
+                        <h3>PB x Paused Game Night</h3>
+                        </div>
+                        <div class="content">
+        <p>Date - <b>24th September, 2020</b><br><br>Time - <b>8:30 PM GST</b><br><br>School - NYU Abu Dhabi</p><br>
+        <a href="https://nyu.zoom.us/j/96152563194" target="_blank">Zoom Link</a>
+                     </div>
+                    </div>
+                </div>
+
+                
+               
+            </div>
+        </div>
+        
+
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+        
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'coverflow',
+              grabCursor: true,
+              centeredSlides: true,
+              initialSlide: 4,
+              slidesPerView: '6',
+              coverflowEffect: {
+                rotate: 20,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+              },
+
+
+            });
+          </script>
+    </body>
+</html>
